@@ -41,6 +41,9 @@
     <Compile Include="flaskr\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="setup.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="flaskr\schema.sql" />
@@ -51,6 +54,7 @@
     <Content Include="flaskr\templates\blog\create.html" />
     <Content Include="flaskr\templates\blog\index.html" />
     <Content Include="flaskr\templates\blog\update.html" />
+    <Content Include="MANIFEST.in" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
